@@ -1,0 +1,13 @@
+/tbd-studio-se/
+/tcommon-studio-se/
+/tdi-studio-se/
+/tdq-studio-se/
+/tesb-studio-se/
+/tmdm-studio-se/
+/toem-studio-se/
+/tmdm-common/
+build*.log
+build*.bat
+*.bat
+target/
+workspace/

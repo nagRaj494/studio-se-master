@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Talend Open Studio" uid="org.talend.studio.tos.all.p2.product" id="org.talend.rcp.branding.tos.all.p2.product" application="org.talend.rcp.branding.tos.application" useFeatures="true" includeLaunchers="false">
+
+   <configIni use="default">
+      <linux>config.ini</linux>
+      <macosx>config.ini</macosx>
+      <solaris>config.ini</solaris>
+      <win32>config.ini</win32>
+   </configIni>
+
+   <features>
+      <feature id="org.talend.fragment.jars.feature"/>
+      <feature id="org.talend.rcp.branding.tos.bigdata.feature"/>
+	  <feature id="org.talend.rcp.branding.tos.feature"/>
+	  <feature id="org.talend.rcp.branding.top.feature"/>
+	  <feature id="org.talend.rcp.branding.esbstandard.feature"/>
+	  <feature id="org.talend.rcp.branding.tombundle.feature"/>
+	  <feature id="org.talend.rcp.branding.tos.test.feature"/>
+	  <feature id="org.talend.babel.all.tos.feature"/>
+	  <feature id="org.talend.test.tos.feature"/>
+	<feature id="org.talend.bigdata.se.test.feature"/>
+   </features>
+</product>
